@@ -14,6 +14,10 @@ namespace ValoresEspeciais
             Console.WriteLine($"sByte: {sbyte.MinValue}\t{sbyte.MaxValue}");
             Console.WriteLine($"uInt: {uint.MinValue}\t{uint.MaxValue}");
             Console.WriteLine($"uLong: {ulong.MinValue}\t{ulong.MaxValue}");
+
+            Console.WriteLine($"positiveInfinity: {float.PositiveInfinity}\t{double.PositiveInfinity}");
+            Console.WriteLine($"negativeInfinity: {float.NegativeInfinity}\t{double.NegativeInfinity}");
+            Console.WriteLine($"NaN: {float.NaN}\t{double.NaN}");
         }
     }
 }
