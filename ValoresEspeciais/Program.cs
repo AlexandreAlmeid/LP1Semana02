@@ -21,6 +21,12 @@ namespace ValoresEspeciais
 
             long i = uint.MaxValue;
             Console.WriteLine((uint) (i + 1));
+
+            float x = 2 * float.MaxValue;
+            float y = float.MaxValue + 1;
+            Console.WriteLine((float) (x));
+            Console.WriteLine((float) (y));
+
         }
     }
 }
