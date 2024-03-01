@@ -18,6 +18,9 @@ namespace ValoresEspeciais
             Console.WriteLine($"positiveInfinity: {float.PositiveInfinity}\t{double.PositiveInfinity}");
             Console.WriteLine($"negativeInfinity: {float.NegativeInfinity}\t{double.NegativeInfinity}");
             Console.WriteLine($"NaN: {float.NaN}\t{double.NaN}");
+
+            long i = uint.MaxValue;
+            Console.WriteLine((uint) (i + 1));
         }
     }
 }
