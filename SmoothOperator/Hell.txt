@@ -1,0 +1,3 @@
+dotnet new console-classic --nrt=false --langVersion 8.0 --name SmoothOperator
+
+dotnet sln add SmoothOperator
