@@ -17,10 +17,19 @@ namespace SmoothOperator
                 // Realizar as operações de decremento e incremento
                 byte decrementResult = (byte)(n - 1);
                 byte incrementResult = (byte)(n + 1);
+                byte divisionResult = (byte)(n / 2);
+                byte shiftleftResult = (byte)(n << 3);
+                byte xorResult = (byte)(n ^ 5);
+                bool isBigger = (bool)(n > 10);
+
 
                 // Mostrar os resultados
                 Console.WriteLine($"Resultado da operação de decremento de n: {decrementResult}");
                 Console.WriteLine($"Resultado da operação de incremento de n: {incrementResult}");
+                Console.WriteLine($"Resultado da operação de divisão de n: {divisionResult}");
+                Console.WriteLine($"Resultado da operação de deslocamento de n: {shiftleftResult}");
+                Console.WriteLine($"Resultado da operação de ou exclusivo de n: {xorResult}");
+                Console.WriteLine($"Resultado da operação de comparação de n: {isBigger}");
             }
             else
             {
